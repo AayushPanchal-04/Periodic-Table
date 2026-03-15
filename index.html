@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Periodic Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Interactive Periodic Table</h1>
+      <div class="controls">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search elements..."
+          class="search-input"
+        />
+        <button id="randomElement" class="random-btn">Random Element</button>
+      </div>
+      <div class="periodic-table" id="periodicTable"></div>
+
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="elementDetails"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="developer-credit">
+      <p>
+        Developed & maintained by Aayush
+        <a
+          href="https://www.linkedin.com/in/aayush-panchal-6731082a0/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Arshdeep Singh</a
+        >
+      </p>
+    </footer>
+
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
