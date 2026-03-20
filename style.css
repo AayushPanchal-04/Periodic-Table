@@ -138,3 +138,13 @@ h1 {
     font-style: italic;
     border: 1px dashed rgba(255, 255, 255, 0.3);
 }
+
+/* Element category colors with glow effects */
+.element.alkali-metal { 
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.3), rgba(255, 107, 107, 0.1));
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.element.alkaline-earth-metal { 
+    background: linear-gradient(135deg, rgba(254, 202, 87, 0.3), rgba(254, 202, 87, 0.1));
+    box-shadow: 0 4px 15px rgba(254, 202, 87, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
