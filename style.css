@@ -125,3 +125,16 @@ h1 {
     font-size: 11px;
     color: #fff;
 }
+
+.element.empty {
+    background: transparent;
+    border: none;
+    cursor: default;
+}
+
+.element.label {
+    background: rgba(255, 255, 255, 0.05);
+    cursor: default;
+    font-style: italic;
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+}
