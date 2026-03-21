@@ -164,3 +164,11 @@ h1 {
     background: linear-gradient(135deg, rgba(95, 39, 205, 0.4), rgba(95, 39, 205, 0.2));
     box-shadow: 0 4px 15px rgba(95, 39, 205, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
+.element.halogen { 
+    background: linear-gradient(135deg, rgba(0, 210, 211, 0.3), rgba(0, 210, 211, 0.1));
+    box-shadow: 0 4px 15px rgba(0, 210, 211, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.element.noble-gas { 
+    background: linear-gradient(135deg, rgba(255, 99, 72, 0.3), rgba(255, 99, 72, 0.1));
+    box-shadow: 0 4px 15px rgba(255, 99, 72, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
