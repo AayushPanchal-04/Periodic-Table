@@ -278,3 +278,13 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+.close:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(90deg);
+}
+
+.element-detail {
+    text-align: center;
+}
