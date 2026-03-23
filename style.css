@@ -351,3 +351,11 @@ h1 {
         min-height: 45px;
         padding: 2px;
     }
+
+    .element .symbol {
+        font-size: 12px;
+    }
+    
+    .element .name {
+        font-size: 6px;
+    }
