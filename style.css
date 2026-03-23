@@ -341,3 +341,13 @@ h1 {
         width: 250px;
         font-size: 14px;
     }
+
+    .periodic-table {
+        padding: 15px;
+        gap: 1px;
+    }
+    
+    .element {
+        min-height: 45px;
+        padding: 2px;
+    }
