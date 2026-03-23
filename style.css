@@ -332,3 +332,12 @@ h1 {
         font-size: 2rem;
         margin-bottom: 15px;
     }
+
+    .controls {
+        margin-bottom: 20px;
+    }
+    
+    .search-input {
+        width: 250px;
+        font-size: 14px;
+    }
