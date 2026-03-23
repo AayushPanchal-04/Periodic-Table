@@ -359,3 +359,8 @@ h1 {
     .element .name {
         font-size: 6px;
     }
+
+    .element .mass {
+        font-size: 6px;
+    }
+}
