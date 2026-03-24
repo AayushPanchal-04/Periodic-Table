@@ -419,3 +419,14 @@ h1 {
         font-size: 4px;
         line-height: 0.9;
     }
+
+    .element .mass {
+        font-size: 4px;
+    }
+    
+    .modal-content {
+        margin: 5% auto;
+        padding: 20px;
+        width: 95%;
+    }
+}
