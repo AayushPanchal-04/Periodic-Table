@@ -399,3 +399,9 @@ h1 {
         overflow-x: auto;
         min-width: 600px;
     }
+
+    .element {
+        min-height: 30px;
+        padding: 1px;
+        min-width: 30px;
+    }
