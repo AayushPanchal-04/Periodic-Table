@@ -414,3 +414,8 @@ h1 {
         font-size: 8px;
         margin: 4px 0 1px 0;
     }
+
+     .element .name {
+        font-size: 4px;
+        line-height: 0.9;
+    }
