@@ -392,3 +392,10 @@ h1 {
         font-size: 14px;
         padding: 10px 20px;
     }
+
+    .periodic-table {
+        padding: 8px;
+        gap: 0.5px;
+        overflow-x: auto;
+        min-width: 600px;
+    }
