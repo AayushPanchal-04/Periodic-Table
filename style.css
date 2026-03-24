@@ -405,3 +405,7 @@ h1 {
         padding: 1px;
         min-width: 30px;
     }
+
+    .element .number {
+        font-size: 6px;
+    }
