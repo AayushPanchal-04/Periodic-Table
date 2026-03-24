@@ -381,3 +381,14 @@ h1 {
         gap: 10px;
         margin-bottom: 20px;
     }
+
+    .search-input {
+        width: 200px;
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+    
+    .random-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
