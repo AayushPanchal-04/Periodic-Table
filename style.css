@@ -454,3 +454,8 @@ h1 {
     font-weight: 500;
     transition: all 0.3s ease;
 }
+
+.developer-credit a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(120, 219, 255, 0.5);
+}
