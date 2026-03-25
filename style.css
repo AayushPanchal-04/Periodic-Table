@@ -447,3 +447,10 @@ h1 {
     font-size: 14px;
     margin: 0;
 }
+
+.developer-credit a {
+    color: rgba(120, 219, 255, 0.9);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
