@@ -430,3 +430,14 @@ h1 {
         width: 95%;
     }
 }
+
+/* Developer Credit Footer */
+.developer-credit {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
