@@ -459,3 +459,9 @@ h1 {
     color: #fff;
     text-shadow: 0 0 10px rgba(120, 219, 255, 0.5);
 }
+
+@media (max-width: 768px) {
+    .developer-credit {
+        margin-top: 30px;
+        padding: 15px;
+    }
