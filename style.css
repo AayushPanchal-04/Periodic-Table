@@ -441,3 +441,9 @@ h1 {
     backdrop-filter: blur(10px);
     border-radius: 10px;
 }
+
+.developer-credit p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin: 0;
+}
