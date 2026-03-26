@@ -1,0 +1,11 @@
+const elements = {
+    1: { number: 1, symbol: 'H', name: 'Hydrogen', mass: 1.008, category: 'Nonmetal', row: 1, col: 1 },
+    2: { number: 2, symbol: 'He', name: 'Helium', mass: 4.003, category: 'Noble Gas', row: 1, col: 18 },
+    3: { number: 3, symbol: 'Li', name: 'Lithium', mass: 6.941, category: 'Alkali Metal', row: 2, col: 1 },
+    4: { number: 4, symbol: 'Be', name: 'Beryllium', mass: 9.012, category: 'Alkaline Earth Metal', row: 2, col: 2 },
+    5: { number: 5, symbol: 'B', name: 'Boron', mass: 10.811, category: 'Metalloid', row: 2, col: 13 },
+    6: { number: 6, symbol: 'C', name: 'Carbon', mass: 12.011, category: 'Nonmetal', row: 2, col: 14 },
+    7: { number: 7, symbol: 'N', name: 'Nitrogen', mass: 14.007, category: 'Nonmetal', row: 2, col: 15 },
+    8: { number: 8, symbol: 'O', name: 'Oxygen', mass: 15.999, category: 'Nonmetal', row: 2, col: 16 },
+    9: { number: 9, symbol: 'F', name: 'Fluorine', mass: 18.998, category: 'Halogen', row: 2, col: 17 },
+    10: { number: 10, symbol: 'Ne', name: 'Neon', mass: 20.180, category: 'Noble Gas', row: 2, col: 18 },
