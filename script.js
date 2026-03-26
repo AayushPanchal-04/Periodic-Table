@@ -29,3 +29,8 @@ const elements = {
     28: { number: 28, symbol: 'Ni', name: 'Nickel', mass: 58.693, category: 'Transition Metal', row: 4, col: 10 },
     29: { number: 29, symbol: 'Cu', name: 'Copper', mass: 63.546, category: 'Transition Metal', row: 4, col: 11 },
     30: { number: 30, symbol: 'Zn', name: 'Zinc', mass: 65.38, category: 'Transition Metal', row: 4, col: 12 },
+     31: { number: 31, symbol: 'Ga', name: 'Gallium', mass: 69.723, category: 'Post-transition Metal', row: 4, col: 13 },
+    32: { number: 32, symbol: 'Ge', name: 'Germanium', mass: 72.630, category: 'Metalloid', row: 4, col: 14 },
+    33: { number: 33, symbol: 'As', name: 'Arsenic', mass: 74.922, category: 'Metalloid', row: 4, col: 15 },
+    34: { number: 34, symbol: 'Se', name: 'Selenium', mass: 78.971, category: 'Nonmetal', row: 4, col: 16 },
+    35: { number: 35, symbol: 'Br', name: 'Bromine', mass: 79.904, category: 'Halogen', row: 4, col: 17 },
