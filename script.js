@@ -39,3 +39,8 @@ const elements = {
     38: { number: 38, symbol: 'Sr', name: 'Strontium', mass: 87.62, category: 'Alkaline Earth Metal', row: 5, col: 2 },
     39: { number: 39, symbol: 'Y', name: 'Yttrium', mass: 88.906, category: 'Transition Metal', row: 5, col: 3 },
     40: { number: 40, symbol: 'Zr', name: 'Zirconium', mass: 91.224, category: 'Transition Metal', row: 5, col: 4 },
+    41: { number: 41, symbol: 'Nb', name: 'Niobium', mass: 92.906, category: 'Transition Metal', row: 5, col: 5 },
+    42: { number: 42, symbol: 'Mo', name: 'Molybdenum', mass: 95.95, category: 'Transition Metal', row: 5, col: 6 },
+    43: { number: 43, symbol: 'Tc', name: 'Technetium', mass: 98, category: 'Transition Metal', row: 5, col: 7 },
+    44: { number: 44, symbol: 'Ru', name: 'Ruthenium', mass: 101.07, category: 'Transition Metal', row: 5, col: 8 },
+    45: { number: 45, symbol: 'Rh', name: 'Rhodium', mass: 102.91, category: 'Transition Metal', row: 5, col: 9 },
