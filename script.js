@@ -44,3 +44,8 @@ const elements = {
     43: { number: 43, symbol: 'Tc', name: 'Technetium', mass: 98, category: 'Transition Metal', row: 5, col: 7 },
     44: { number: 44, symbol: 'Ru', name: 'Ruthenium', mass: 101.07, category: 'Transition Metal', row: 5, col: 8 },
     45: { number: 45, symbol: 'Rh', name: 'Rhodium', mass: 102.91, category: 'Transition Metal', row: 5, col: 9 },
+    46: { number: 46, symbol: 'Pd', name: 'Palladium', mass: 106.42, category: 'Transition Metal', row: 5, col: 10 },
+    47: { number: 47, symbol: 'Ag', name: 'Silver', mass: 107.87, category: 'Transition Metal', row: 5, col: 11 },
+    48: { number: 48, symbol: 'Cd', name: 'Cadmium', mass: 112.41, category: 'Transition Metal', row: 5, col: 12 },
+    49: { number: 49, symbol: 'In', name: 'Indium', mass: 114.82, category: 'Post-transition Metal', row: 5, col: 13 },
+    50: { number: 50, symbol: 'Sn', name: 'Tin', mass: 118.71, category: 'Post-transition Metal', row: 5, col: 14 },
