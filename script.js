@@ -34,3 +34,8 @@ const elements = {
     33: { number: 33, symbol: 'As', name: 'Arsenic', mass: 74.922, category: 'Metalloid', row: 4, col: 15 },
     34: { number: 34, symbol: 'Se', name: 'Selenium', mass: 78.971, category: 'Nonmetal', row: 4, col: 16 },
     35: { number: 35, symbol: 'Br', name: 'Bromine', mass: 79.904, category: 'Halogen', row: 4, col: 17 },
+     36: { number: 36, symbol: 'Kr', name: 'Krypton', mass: 83.798, category: 'Noble Gas', row: 4, col: 18 },
+    37: { number: 37, symbol: 'Rb', name: 'Rubidium', mass: 85.468, category: 'Alkali Metal', row: 5, col: 1 },
+    38: { number: 38, symbol: 'Sr', name: 'Strontium', mass: 87.62, category: 'Alkaline Earth Metal', row: 5, col: 2 },
+    39: { number: 39, symbol: 'Y', name: 'Yttrium', mass: 88.906, category: 'Transition Metal', row: 5, col: 3 },
+    40: { number: 40, symbol: 'Zr', name: 'Zirconium', mass: 91.224, category: 'Transition Metal', row: 5, col: 4 },
