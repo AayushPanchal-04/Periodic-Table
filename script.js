@@ -74,3 +74,8 @@ const elements = {
     73: { number: 73, symbol: 'Ta', name: 'Tantalum', mass: 180.95, category: 'Transition Metal', row: 6, col: 5 },
     74: { number: 74, symbol: 'W', name: 'Tungsten', mass: 183.84, category: 'Transition Metal', row: 6, col: 6 },
     75: { number: 75, symbol: 'Re', name: 'Rhenium', mass: 186.21, category: 'Transition Metal', row: 6, col: 7 },
+    76: { number: 76, symbol: 'Os', name: 'Osmium', mass: 190.23, category: 'Transition Metal', row: 6, col: 8 },
+    77: { number: 77, symbol: 'Ir', name: 'Iridium', mass: 192.22, category: 'Transition Metal', row: 6, col: 9 },
+    78: { number: 78, symbol: 'Pt', name: 'Platinum', mass: 195.08, category: 'Transition Metal', row: 6, col: 10 },
+    79: { number: 79, symbol: 'Au', name: 'Gold', mass: 196.97, category: 'Transition Metal', row: 6, col: 11 },
+    80: { number: 80, symbol: 'Hg', name: 'Mercury', mass: 200.59, category: 'Transition Metal', row: 6, col: 12 },
