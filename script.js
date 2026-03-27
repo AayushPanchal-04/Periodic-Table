@@ -59,3 +59,8 @@ const elements = {
     58: { number: 58, symbol: 'Ce', name: 'Cerium', mass: 140.12, category: 'Lanthanide', row: 8, col: 4 },
     59: { number: 59, symbol: 'Pr', name: 'Praseodymium', mass: 140.91, category: 'Lanthanide', row: 8, col: 5 },
     60: { number: 60, symbol: 'Nd', name: 'Neodymium', mass: 144.24, category: 'Lanthanide', row: 8, col: 6 },
+    61: { number: 61, symbol: 'Pm', name: 'Promethium', mass: 145, category: 'Lanthanide', row: 8, col: 7 },
+    62: { number: 62, symbol: 'Sm', name: 'Samarium', mass: 150.36, category: 'Lanthanide', row: 8, col: 8 },
+    63: { number: 63, symbol: 'Eu', name: 'Europium', mass: 151.96, category: 'Lanthanide', row: 8, col: 9 },
+    64: { number: 64, symbol: 'Gd', name: 'Gadolinium', mass: 157.25, category: 'Lanthanide', row: 8, col: 10 },
+    65: { number: 65, symbol: 'Tb', name: 'Terbium', mass: 158.93, category: 'Lanthanide', row: 8, col: 11 },
