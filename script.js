@@ -69,3 +69,8 @@ const elements = {
     68: { number: 68, symbol: 'Er', name: 'Erbium', mass: 167.26, category: 'Lanthanide', row: 8, col: 14 },
     69: { number: 69, symbol: 'Tm', name: 'Thulium', mass: 168.93, category: 'Lanthanide', row: 8, col: 15 },
     70: { number: 70, symbol: 'Yb', name: 'Ytterbium', mass: 173.05, category: 'Lanthanide', row: 8, col: 16 },
+    71: { number: 71, symbol: 'Lu', name: 'Lutetium', mass: 174.97, category: 'Lanthanide', row: 8, col: 17 },
+    72: { number: 72, symbol: 'Hf', name: 'Hafnium', mass: 178.49, category: 'Transition Metal', row: 6, col: 4 },
+    73: { number: 73, symbol: 'Ta', name: 'Tantalum', mass: 180.95, category: 'Transition Metal', row: 6, col: 5 },
+    74: { number: 74, symbol: 'W', name: 'Tungsten', mass: 183.84, category: 'Transition Metal', row: 6, col: 6 },
+    75: { number: 75, symbol: 'Re', name: 'Rhenium', mass: 186.21, category: 'Transition Metal', row: 6, col: 7 },
