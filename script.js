@@ -54,3 +54,8 @@ const elements = {
     53: { number: 53, symbol: 'I', name: 'Iodine', mass: 126.90, category: 'Halogen', row: 5, col: 17 },
     54: { number: 54, symbol: 'Xe', name: 'Xenon', mass: 131.29, category: 'Noble Gas', row: 5, col: 18 },
     55: { number: 55, symbol: 'Cs', name: 'Cesium', mass: 132.91, category: 'Alkali Metal', row: 6, col: 1 },
+    56: { number: 56, symbol: 'Ba', name: 'Barium', mass: 137.33, category: 'Alkaline Earth Metal', row: 6, col: 2 },
+    57: { number: 57, symbol: 'La', name: 'Lanthanum', mass: 138.91, category: 'Lanthanide', row: 8, col: 3 },
+    58: { number: 58, symbol: 'Ce', name: 'Cerium', mass: 140.12, category: 'Lanthanide', row: 8, col: 4 },
+    59: { number: 59, symbol: 'Pr', name: 'Praseodymium', mass: 140.91, category: 'Lanthanide', row: 8, col: 5 },
+    60: { number: 60, symbol: 'Nd', name: 'Neodymium', mass: 144.24, category: 'Lanthanide', row: 8, col: 6 },
