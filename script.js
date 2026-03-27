@@ -49,3 +49,8 @@ const elements = {
     48: { number: 48, symbol: 'Cd', name: 'Cadmium', mass: 112.41, category: 'Transition Metal', row: 5, col: 12 },
     49: { number: 49, symbol: 'In', name: 'Indium', mass: 114.82, category: 'Post-transition Metal', row: 5, col: 13 },
     50: { number: 50, symbol: 'Sn', name: 'Tin', mass: 118.71, category: 'Post-transition Metal', row: 5, col: 14 },
+    51: { number: 51, symbol: 'Sb', name: 'Antimony', mass: 121.76, category: 'Metalloid', row: 5, col: 15 },
+    52: { number: 52, symbol: 'Te', name: 'Tellurium', mass: 127.60, category: 'Metalloid', row: 5, col: 16 },
+    53: { number: 53, symbol: 'I', name: 'Iodine', mass: 126.90, category: 'Halogen', row: 5, col: 17 },
+    54: { number: 54, symbol: 'Xe', name: 'Xenon', mass: 131.29, category: 'Noble Gas', row: 5, col: 18 },
+    55: { number: 55, symbol: 'Cs', name: 'Cesium', mass: 132.91, category: 'Alkali Metal', row: 6, col: 1 },
