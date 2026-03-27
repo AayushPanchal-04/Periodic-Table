@@ -64,3 +64,8 @@ const elements = {
     63: { number: 63, symbol: 'Eu', name: 'Europium', mass: 151.96, category: 'Lanthanide', row: 8, col: 9 },
     64: { number: 64, symbol: 'Gd', name: 'Gadolinium', mass: 157.25, category: 'Lanthanide', row: 8, col: 10 },
     65: { number: 65, symbol: 'Tb', name: 'Terbium', mass: 158.93, category: 'Lanthanide', row: 8, col: 11 },
+    66: { number: 66, symbol: 'Dy', name: 'Dysprosium', mass: 162.50, category: 'Lanthanide', row: 8, col: 12 },
+    67: { number: 67, symbol: 'Ho', name: 'Holmium', mass: 164.93, category: 'Lanthanide', row: 8, col: 13 },
+    68: { number: 68, symbol: 'Er', name: 'Erbium', mass: 167.26, category: 'Lanthanide', row: 8, col: 14 },
+    69: { number: 69, symbol: 'Tm', name: 'Thulium', mass: 168.93, category: 'Lanthanide', row: 8, col: 15 },
+    70: { number: 70, symbol: 'Yb', name: 'Ytterbium', mass: 173.05, category: 'Lanthanide', row: 8, col: 16 },
