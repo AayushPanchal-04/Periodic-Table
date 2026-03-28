@@ -94,3 +94,8 @@ const elements = {
     93: { number: 93, symbol: 'Np', name: 'Neptunium', mass: 237, category: 'Actinide', row: 9, col: 7 },
     94: { number: 94, symbol: 'Pu', name: 'Plutonium', mass: 244, category: 'Actinide', row: 9, col: 8 },
     95: { number: 95, symbol: 'Am', name: 'Americium', mass: 243, category: 'Actinide', row: 9, col: 9 },
+    96: { number: 96, symbol: 'Cm', name: 'Curium', mass: 247, category: 'Actinide', row: 9, col: 10 },
+    97: { number: 97, symbol: 'Bk', name: 'Berkelium', mass: 247, category: 'Actinide', row: 9, col: 11 },
+    98: { number: 98, symbol: 'Cf', name: 'Californium', mass: 251, category: 'Actinide', row: 9, col: 12 },
+    99: { number: 99, symbol: 'Es', name: 'Einsteinium', mass: 252, category: 'Actinide', row: 9, col: 13 },
+    100: { number: 100, symbol: 'Fm', name: 'Fermium', mass: 257, category: 'Actinide', row: 9, col: 14 },
