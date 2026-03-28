@@ -99,3 +99,8 @@ const elements = {
     98: { number: 98, symbol: 'Cf', name: 'Californium', mass: 251, category: 'Actinide', row: 9, col: 12 },
     99: { number: 99, symbol: 'Es', name: 'Einsteinium', mass: 252, category: 'Actinide', row: 9, col: 13 },
     100: { number: 100, symbol: 'Fm', name: 'Fermium', mass: 257, category: 'Actinide', row: 9, col: 14 },
+    101: { number: 101, symbol: 'Md', name: 'Mendelevium', mass: 258, category: 'Actinide', row: 9, col: 15 },
+    102: { number: 102, symbol: 'No', name: 'Nobelium', mass: 259, category: 'Actinide', row: 9, col: 16 },
+    103: { number: 103, symbol: 'Lr', name: 'Lawrencium', mass: 262, category: 'Actinide', row: 9, col: 17 },
+    104: { number: 104, symbol: 'Rf', name: 'Rutherfordium', mass: 267, category: 'Transition Metal', row: 7, col: 4 },
+    105: { number: 105, symbol: 'Db', name: 'Dubnium', mass: 270, category: 'Transition Metal', row: 7, col: 5 },
