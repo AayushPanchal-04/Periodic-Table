@@ -109,3 +109,8 @@ const elements = {
     108: { number: 108, symbol: 'Hs', name: 'Hassium', mass: 277, category: 'Transition Metal', row: 7, col: 8 },
     109: { number: 109, symbol: 'Mt', name: 'Meitnerium', mass: 276, category: 'Transition Metal', row: 7, col: 9 },
     110: { number: 110, symbol: 'Ds', name: 'Darmstadtium', mass: 281, category: 'Transition Metal', row: 7, col: 10 },
+     111: { number: 111, symbol: 'Rg', name: 'Roentgenium', mass: 280, category: 'Transition Metal', row: 7, col: 11 },
+    112: { number: 112, symbol: 'Cn', name: 'Copernicium', mass: 285, category: 'Transition Metal', row: 7, col: 12 },
+    113: { number: 113, symbol: 'Nh', name: 'Nihonium', mass: 284, category: 'Post-transition Metal', row: 7, col: 13 },
+    114: { number: 114, symbol: 'Fl', name: 'Flerovium', mass: 289, category: 'Post-transition Metal', row: 7, col: 14 },
+    115: { number: 115, symbol: 'Mc', name: 'Moscovium', mass: 288, category: 'Post-transition Metal', row: 7, col: 15 },
