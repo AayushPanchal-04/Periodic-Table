@@ -89,3 +89,8 @@ const elements = {
     88: { number: 88, symbol: 'Ra', name: 'Radium', mass: 226, category: 'Alkaline Earth Metal', row: 7, col: 2 },
     89: { number: 89, symbol: 'Ac', name: 'Actinium', mass: 227, category: 'Actinide', row: 9, col: 3 },
     90: { number: 90, symbol: 'Th', name: 'Thorium', mass: 232.04, category: 'Actinide', row: 9, col: 4 },
+     91: { number: 91, symbol: 'Pa', name: 'Protactinium', mass: 231.04, category: 'Actinide', row: 9, col: 5 },
+    92: { number: 92, symbol: 'U', name: 'Uranium', mass: 238.03, category: 'Actinide', row: 9, col: 6 },
+    93: { number: 93, symbol: 'Np', name: 'Neptunium', mass: 237, category: 'Actinide', row: 9, col: 7 },
+    94: { number: 94, symbol: 'Pu', name: 'Plutonium', mass: 244, category: 'Actinide', row: 9, col: 8 },
+    95: { number: 95, symbol: 'Am', name: 'Americium', mass: 243, category: 'Actinide', row: 9, col: 9 },
