@@ -104,3 +104,8 @@ const elements = {
     103: { number: 103, symbol: 'Lr', name: 'Lawrencium', mass: 262, category: 'Actinide', row: 9, col: 17 },
     104: { number: 104, symbol: 'Rf', name: 'Rutherfordium', mass: 267, category: 'Transition Metal', row: 7, col: 4 },
     105: { number: 105, symbol: 'Db', name: 'Dubnium', mass: 270, category: 'Transition Metal', row: 7, col: 5 },
+    106: { number: 106, symbol: 'Sg', name: 'Seaborgium', mass: 271, category: 'Transition Metal', row: 7, col: 6 },
+    107: { number: 107, symbol: 'Bh', name: 'Bohrium', mass: 270, category: 'Transition Metal', row: 7, col: 7 },
+    108: { number: 108, symbol: 'Hs', name: 'Hassium', mass: 277, category: 'Transition Metal', row: 7, col: 8 },
+    109: { number: 109, symbol: 'Mt', name: 'Meitnerium', mass: 276, category: 'Transition Metal', row: 7, col: 9 },
+    110: { number: 110, symbol: 'Ds', name: 'Darmstadtium', mass: 281, category: 'Transition Metal', row: 7, col: 10 },
