@@ -118,3 +118,10 @@ const elements = {
     117: { number: 117, symbol: 'Ts', name: 'Tennessine', mass: 294, category: 'Halogen', row: 7, col: 17 },
     118: { number: 118, symbol: 'Og', name: 'Oganesson', mass: 294, category: 'Noble Gas', row: 7, col: 18 }
 };
+
+const periodicTable = document.getElementById('periodicTable');
+const modal = document.getElementById('modal');
+const elementDetails = document.getElementById('elementDetails');
+const closeBtn = document.querySelector('.close');
+const searchInput = document.getElementById('searchInput');
+const randomBtn = document.getElementById('randomElement');
