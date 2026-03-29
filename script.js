@@ -131,3 +131,8 @@ let allElementDivs = [];
 function createPeriodicTable() {
     // Create 9 rows and 18 columns grid
     for (let row = 1; row <= 9; row++) {
+        for (let col = 1; col <= 18; col++) {
+            const elementDiv = document.createElement('div');
+            
+            // Find element for this position
+            const element = Object.values(elements).find(el => el.row === row && el.col === col);
