@@ -160,3 +160,11 @@ function createPeriodicTable() {
             periodicTable.appendChild(elementDiv);
         }
     }
+
+    // Add lanthanide and actinide labels
+    const lanthanideLabel = document.createElement('div');
+    lanthanideLabel.className = 'element label';
+    lanthanideLabel.innerHTML = '<div class="symbol">57-71</div><div class="name">Lanthanides</div>';
+    lanthanideLabel.style.gridRow = 6;
+    lanthanideLabel.style.gridColumn = 3;
+    periodicTable.appendChild(lanthanideLabel);
