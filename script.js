@@ -125,3 +125,9 @@ const elementDetails = document.getElementById('elementDetails');
 const closeBtn = document.querySelector('.close');
 const searchInput = document.getElementById('searchInput');
 const randomBtn = document.getElementById('randomElement');
+
+let allElementDivs = [];
+
+function createPeriodicTable() {
+    // Create 9 rows and 18 columns grid
+    for (let row = 1; row <= 9; row++) {
