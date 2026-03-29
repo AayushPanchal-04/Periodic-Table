@@ -136,3 +136,16 @@ function createPeriodicTable() {
             
             // Find element for this position
             const element = Object.values(elements).find(el => el.row === row && el.col === col);
+
+            if (element) {
+                elementDiv.className = `element ${element.category.toLowerCase().replace(/[^a-z]/g, '-')}`;
+                elementDiv.innerHTML = `
+                    <div class="number">${element.number}</div>
+                    <div class="symbol">${element.symbol}</div>
+                    <div class="name">${element.name}</div>
+                    <div class="mass">${element.mass}</div>
+                `;
+                elementDiv.addEventListener('click', () => {
+                    particleSystem.createParticles(elementDiv);
+                    showElementDetails(element);
+                });
