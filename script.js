@@ -149,3 +149,14 @@ function createPeriodicTable() {
                     particleSystem.createParticles(elementDiv);
                     showElementDetails(element);
                 });
+
+                allElementDivs.push({ element, div: elementDiv });
+            } else {
+                elementDiv.className = 'element empty';
+            }
+            
+            elementDiv.style.gridRow = row;
+            elementDiv.style.gridColumn = col;
+            periodicTable.appendChild(elementDiv);
+        }
+    }
