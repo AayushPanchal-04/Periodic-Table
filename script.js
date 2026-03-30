@@ -209,3 +209,24 @@ window.addEventListener('click', (e) => {
         modal.style.display = 'none';
     }
 });
+
+
+
+function searchElements() {
+    const query = searchInput.value.toLowerCase();
+    
+    allElementDivs.forEach(({ element, div }) => {
+        const matches = element.name.toLowerCase().includes(query) || 
+                       element.symbol.toLowerCase().includes(query) ||
+                       element.number.toString().includes(query);
+        
+        if (matches || query === '') {
+            div.style.opacity = '1';
+            div.style.transform = 'scale(1)';
+        } else {
+            div.style.opacity = '0.2';
+            div.style.transform = 'scale(0.8)';
+        }
+    });
+}
+
