@@ -249,3 +249,6 @@ function showRandomElement() {
 // Event listeners
 searchInput.addEventListener('input', searchElements);
 randomBtn.addEventListener('click', showRandomElement);
+
+// Initialize the periodic table
+createPeriodicTable();
