@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Periodic Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -18,6 +21,20 @@
         />
         <button id="randomElement" class="random-btn">Random Element</button>
       </div>
+
+      <div class="legend">
+        <div class="legend-item"><span class="dot alkali-metal"></span>Alkali Metal</div>
+        <div class="legend-item"><span class="dot alkaline-earth-metal"></span>Alkaline Earth</div>
+        <div class="legend-item"><span class="dot transition-metal"></span>Transition Metal</div>
+        <div class="legend-item"><span class="dot post-transition-metal"></span>Post-transition</div>
+        <div class="legend-item"><span class="dot metalloid"></span>Metalloid</div>
+        <div class="legend-item"><span class="dot nonmetal"></span>Nonmetal</div>
+        <div class="legend-item"><span class="dot halogen"></span>Halogen</div>
+        <div class="legend-item"><span class="dot noble-gas"></span>Noble Gas</div>
+        <div class="legend-item"><span class="dot lanthanide"></span>Lanthanide</div>
+        <div class="legend-item"><span class="dot actinide"></span>Actinide</div>
+      </div>
+
       <div class="periodic-table" id="periodicTable"></div>
 
       <div class="modal" id="modal">
@@ -26,19 +43,19 @@
           <div id="elementDetails"></div>
         </div>
       </div>
-    </div>
 
-    <footer class="developer-credit">
-      <p>
-        Developed & maintained by Aayush
-        <a
-          href="https://www.aayushpanchal.in"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Aayush Panchal</a
-        >
-      </p>
-    </footer>
+      <footer class="developer-credit">
+        <p>
+          Developed & maintained by
+          <a
+            href="https://www.aayushpanchal.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Aayush Panchal</a
+          >
+        </p>
+      </footer>
+    </div>
 
     <script src="particles.js"></script>
     <script src="script.js"></script>

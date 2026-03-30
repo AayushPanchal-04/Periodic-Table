@@ -55,21 +55,21 @@ const elements = {
     54: { number: 54, symbol: 'Xe', name: 'Xenon', mass: 131.29, category: 'Noble Gas', row: 5, col: 18 },
     55: { number: 55, symbol: 'Cs', name: 'Cesium', mass: 132.91, category: 'Alkali Metal', row: 6, col: 1 },
     56: { number: 56, symbol: 'Ba', name: 'Barium', mass: 137.33, category: 'Alkaline Earth Metal', row: 6, col: 2 },
-    57: { number: 57, symbol: 'La', name: 'Lanthanum', mass: 138.91, category: 'Lanthanide', row: 8, col: 3 },
-    58: { number: 58, symbol: 'Ce', name: 'Cerium', mass: 140.12, category: 'Lanthanide', row: 8, col: 4 },
-    59: { number: 59, symbol: 'Pr', name: 'Praseodymium', mass: 140.91, category: 'Lanthanide', row: 8, col: 5 },
-    60: { number: 60, symbol: 'Nd', name: 'Neodymium', mass: 144.24, category: 'Lanthanide', row: 8, col: 6 },
-    61: { number: 61, symbol: 'Pm', name: 'Promethium', mass: 145, category: 'Lanthanide', row: 8, col: 7 },
-    62: { number: 62, symbol: 'Sm', name: 'Samarium', mass: 150.36, category: 'Lanthanide', row: 8, col: 8 },
-    63: { number: 63, symbol: 'Eu', name: 'Europium', mass: 151.96, category: 'Lanthanide', row: 8, col: 9 },
-    64: { number: 64, symbol: 'Gd', name: 'Gadolinium', mass: 157.25, category: 'Lanthanide', row: 8, col: 10 },
-    65: { number: 65, symbol: 'Tb', name: 'Terbium', mass: 158.93, category: 'Lanthanide', row: 8, col: 11 },
-    66: { number: 66, symbol: 'Dy', name: 'Dysprosium', mass: 162.50, category: 'Lanthanide', row: 8, col: 12 },
-    67: { number: 67, symbol: 'Ho', name: 'Holmium', mass: 164.93, category: 'Lanthanide', row: 8, col: 13 },
-    68: { number: 68, symbol: 'Er', name: 'Erbium', mass: 167.26, category: 'Lanthanide', row: 8, col: 14 },
-    69: { number: 69, symbol: 'Tm', name: 'Thulium', mass: 168.93, category: 'Lanthanide', row: 8, col: 15 },
-    70: { number: 70, symbol: 'Yb', name: 'Ytterbium', mass: 173.05, category: 'Lanthanide', row: 8, col: 16 },
-    71: { number: 71, symbol: 'Lu', name: 'Lutetium', mass: 174.97, category: 'Lanthanide', row: 8, col: 17 },
+    57: { number: 57, symbol: 'La', name: 'Lanthanum', mass: 138.91, category: 'Lanthanide', row: 9, col: 3 },
+    58: { number: 58, symbol: 'Ce', name: 'Cerium', mass: 140.12, category: 'Lanthanide', row: 9, col: 4 },
+    59: { number: 59, symbol: 'Pr', name: 'Praseodymium', mass: 140.91, category: 'Lanthanide', row: 9, col: 5 },
+    60: { number: 60, symbol: 'Nd', name: 'Neodymium', mass: 144.24, category: 'Lanthanide', row: 9, col: 6 },
+    61: { number: 61, symbol: 'Pm', name: 'Promethium', mass: 145, category: 'Lanthanide', row: 9, col: 7 },
+    62: { number: 62, symbol: 'Sm', name: 'Samarium', mass: 150.36, category: 'Lanthanide', row: 9, col: 8 },
+    63: { number: 63, symbol: 'Eu', name: 'Europium', mass: 151.96, category: 'Lanthanide', row: 9, col: 9 },
+    64: { number: 64, symbol: 'Gd', name: 'Gadolinium', mass: 157.25, category: 'Lanthanide', row: 9, col: 10 },
+    65: { number: 65, symbol: 'Tb', name: 'Terbium', mass: 158.93, category: 'Lanthanide', row: 9, col: 11 },
+    66: { number: 66, symbol: 'Dy', name: 'Dysprosium', mass: 162.50, category: 'Lanthanide', row: 9, col: 12 },
+    67: { number: 67, symbol: 'Ho', name: 'Holmium', mass: 164.93, category: 'Lanthanide', row: 9, col: 13 },
+    68: { number: 68, symbol: 'Er', name: 'Erbium', mass: 167.26, category: 'Lanthanide', row: 9, col: 14 },
+    69: { number: 69, symbol: 'Tm', name: 'Thulium', mass: 168.93, category: 'Lanthanide', row: 9, col: 15 },
+    70: { number: 70, symbol: 'Yb', name: 'Ytterbium', mass: 173.05, category: 'Lanthanide', row: 9, col: 16 },
+    71: { number: 71, symbol: 'Lu', name: 'Lutetium', mass: 174.97, category: 'Lanthanide', row: 9, col: 17 },
     72: { number: 72, symbol: 'Hf', name: 'Hafnium', mass: 178.49, category: 'Transition Metal', row: 6, col: 4 },
     73: { number: 73, symbol: 'Ta', name: 'Tantalum', mass: 180.95, category: 'Transition Metal', row: 6, col: 5 },
     74: { number: 74, symbol: 'W', name: 'Tungsten', mass: 183.84, category: 'Transition Metal', row: 6, col: 6 },
@@ -87,21 +87,21 @@ const elements = {
     86: { number: 86, symbol: 'Rn', name: 'Radon', mass: 222, category: 'Noble Gas', row: 6, col: 18 },
     87: { number: 87, symbol: 'Fr', name: 'Francium', mass: 223, category: 'Alkali Metal', row: 7, col: 1 },
     88: { number: 88, symbol: 'Ra', name: 'Radium', mass: 226, category: 'Alkaline Earth Metal', row: 7, col: 2 },
-    89: { number: 89, symbol: 'Ac', name: 'Actinium', mass: 227, category: 'Actinide', row: 9, col: 3 },
-    90: { number: 90, symbol: 'Th', name: 'Thorium', mass: 232.04, category: 'Actinide', row: 9, col: 4 },
-    91: { number: 91, symbol: 'Pa', name: 'Protactinium', mass: 231.04, category: 'Actinide', row: 9, col: 5 },
-    92: { number: 92, symbol: 'U', name: 'Uranium', mass: 238.03, category: 'Actinide', row: 9, col: 6 },
-    93: { number: 93, symbol: 'Np', name: 'Neptunium', mass: 237, category: 'Actinide', row: 9, col: 7 },
-    94: { number: 94, symbol: 'Pu', name: 'Plutonium', mass: 244, category: 'Actinide', row: 9, col: 8 },
-    95: { number: 95, symbol: 'Am', name: 'Americium', mass: 243, category: 'Actinide', row: 9, col: 9 },
-    96: { number: 96, symbol: 'Cm', name: 'Curium', mass: 247, category: 'Actinide', row: 9, col: 10 },
-    97: { number: 97, symbol: 'Bk', name: 'Berkelium', mass: 247, category: 'Actinide', row: 9, col: 11 },
-    98: { number: 98, symbol: 'Cf', name: 'Californium', mass: 251, category: 'Actinide', row: 9, col: 12 },
-    99: { number: 99, symbol: 'Es', name: 'Einsteinium', mass: 252, category: 'Actinide', row: 9, col: 13 },
-    100: { number: 100, symbol: 'Fm', name: 'Fermium', mass: 257, category: 'Actinide', row: 9, col: 14 },
-    101: { number: 101, symbol: 'Md', name: 'Mendelevium', mass: 258, category: 'Actinide', row: 9, col: 15 },
-    102: { number: 102, symbol: 'No', name: 'Nobelium', mass: 259, category: 'Actinide', row: 9, col: 16 },
-    103: { number: 103, symbol: 'Lr', name: 'Lawrencium', mass: 262, category: 'Actinide', row: 9, col: 17 },
+    89: { number: 89, symbol: 'Ac', name: 'Actinium', mass: 227, category: 'Actinide', row: 10, col: 3 },
+    90: { number: 90, symbol: 'Th', name: 'Thorium', mass: 232.04, category: 'Actinide', row: 10, col: 4 },
+    91: { number: 91, symbol: 'Pa', name: 'Protactinium', mass: 231.04, category: 'Actinide', row: 10, col: 5 },
+    92: { number: 92, symbol: 'U', name: 'Uranium', mass: 238.03, category: 'Actinide', row: 10, col: 6 },
+    93: { number: 93, symbol: 'Np', name: 'Neptunium', mass: 237, category: 'Actinide', row: 10, col: 7 },
+    94: { number: 94, symbol: 'Pu', name: 'Plutonium', mass: 244, category: 'Actinide', row: 10, col: 8 },
+    95: { number: 95, symbol: 'Am', name: 'Americium', mass: 243, category: 'Actinide', row: 10, col: 9 },
+    96: { number: 96, symbol: 'Cm', name: 'Curium', mass: 247, category: 'Actinide', row: 10, col: 10 },
+    97: { number: 97, symbol: 'Bk', name: 'Berkelium', mass: 247, category: 'Actinide', row: 10, col: 11 },
+    98: { number: 98, symbol: 'Cf', name: 'Californium', mass: 251, category: 'Actinide', row: 10, col: 12 },
+    99: { number: 99, symbol: 'Es', name: 'Einsteinium', mass: 252, category: 'Actinide', row: 10, col: 13 },
+    100: { number: 100, symbol: 'Fm', name: 'Fermium', mass: 257, category: 'Actinide', row: 10, col: 14 },
+    101: { number: 101, symbol: 'Md', name: 'Mendelevium', mass: 258, category: 'Actinide', row: 10, col: 15 },
+    102: { number: 102, symbol: 'No', name: 'Nobelium', mass: 259, category: 'Actinide', row: 10, col: 16 },
+    103: { number: 103, symbol: 'Lr', name: 'Lawrencium', mass: 262, category: 'Actinide', row: 10, col: 17 },
     104: { number: 104, symbol: 'Rf', name: 'Rutherfordium', mass: 267, category: 'Transition Metal', row: 7, col: 4 },
     105: { number: 105, symbol: 'Db', name: 'Dubnium', mass: 270, category: 'Transition Metal', row: 7, col: 5 },
     106: { number: 106, symbol: 'Sg', name: 'Seaborgium', mass: 271, category: 'Transition Metal', row: 7, col: 6 },
@@ -129,13 +129,17 @@ const randomBtn = document.getElementById('randomElement');
 let allElementDivs = [];
 
 function createPeriodicTable() {
-    // Create 9 rows and 18 columns grid
-    for (let row = 1; row <= 9; row++) {
+    // Create 10 rows and 18 columns grid
+    for (let row = 1; row <= 10; row++) {
         for (let col = 1; col <= 18; col++) {
             const elementDiv = document.createElement('div');
             
             // Find element for this position
-            const element = Object.values(elements).find(el => el.row === row && el.col === col);
+            let element = Object.values(elements).find(el => el.row === row && el.col === col);
+
+            // Add Lanthanum and Actinium to the main table as well
+            if (row === 6 && col === 3) element = elements[57];
+            if (row === 7 && col === 3) element = elements[89];
 
             if (element) {
                 elementDiv.className = `element ${element.category.toLowerCase().replace(/[^a-z]/g, '-')}`;
@@ -160,39 +164,28 @@ function createPeriodicTable() {
             periodicTable.appendChild(elementDiv);
         }
     }
-
-    // Add lanthanide and actinide labels
-    const lanthanideLabel = document.createElement('div');
-    lanthanideLabel.className = 'element label';
-    lanthanideLabel.innerHTML = '<div class="symbol">57-71</div><div class="name">Lanthanides</div>';
-    lanthanideLabel.style.gridRow = 6;
-    lanthanideLabel.style.gridColumn = 3;
-    periodicTable.appendChild(lanthanideLabel);
-
-    const actinideLabel = document.createElement('div');
-    actinideLabel.className = 'element label';
-    actinideLabel.innerHTML = '<div class="symbol">89-103</div><div class="name">Actinides</div>';
-    actinideLabel.style.gridRow = 7;
-    actinideLabel.style.gridColumn = 3;
-    periodicTable.appendChild(actinideLabel);
 }
 
 function showElementDetails(element) {
     elementDetails.innerHTML = `
         <div class="element-detail">
-            <h2>${element.name} (${element.symbol})</h2>
+            <h2>${element.name} <span style="color: #94a3b8; font-weight: 400;">(${element.symbol})</span></h2>
             <div class="detail-grid">
                 <div class="detail-item">
-                    <strong>Atomic Number:</strong><br>${element.number}
+                    <strong>Atomic Number</strong>
+                    <span>${element.number}</span>
                 </div>
                 <div class="detail-item">
-                    <strong>Atomic Mass:</strong><br>${element.mass} u
+                    <strong>Atomic Mass</strong>
+                    <span>${element.mass} u</span>
                 </div>
                 <div class="detail-item">
-                    <strong>Category:</strong><br>${element.category}
+                    <strong>Category</strong>
+                    <span>${element.category}</span>
                 </div>
                 <div class="detail-item">
-                    <strong>Symbol:</strong><br>${element.symbol}
+                    <strong>Symbol</strong>
+                    <span>${element.symbol}</span>
                 </div>
             </div>
         </div>
@@ -223,9 +216,11 @@ function searchElements() {
         if (matches || query === '') {
             div.style.opacity = '1';
             div.style.transform = 'scale(1)';
+            div.style.filter = 'none';
         } else {
             div.style.opacity = '0.2';
-            div.style.transform = 'scale(0.8)';
+            div.style.transform = 'scale(0.9)';
+            div.style.filter = 'grayscale(100%) blur(1px)';
         }
     });
 }
