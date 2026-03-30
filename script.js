@@ -245,3 +245,7 @@ function showRandomElement() {
         }, 1000);
     }
 }
+
+// Event listeners
+searchInput.addEventListener('input', searchElements);
+randomBtn.addEventListener('click', showRandomElement);
