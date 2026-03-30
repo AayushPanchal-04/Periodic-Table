@@ -176,3 +176,26 @@ function createPeriodicTable() {
     actinideLabel.style.gridColumn = 3;
     periodicTable.appendChild(actinideLabel);
 }
+
+function showElementDetails(element) {
+    elementDetails.innerHTML = `
+        <div class="element-detail">
+            <h2>${element.name} (${element.symbol})</h2>
+            <div class="detail-grid">
+                <div class="detail-item">
+                    <strong>Atomic Number:</strong><br>${element.number}
+                </div>
+                <div class="detail-item">
+                    <strong>Atomic Mass:</strong><br>${element.mass} u
+                </div>
+                <div class="detail-item">
+                    <strong>Category:</strong><br>${element.category}
+                </div>
+                <div class="detail-item">
+                    <strong>Symbol:</strong><br>${element.symbol}
+                </div>
+            </div>
+        </div>
+    `;
+    modal.style.display = 'block';
+}
