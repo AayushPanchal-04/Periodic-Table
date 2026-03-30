@@ -230,3 +230,18 @@ function searchElements() {
     });
 }
 
+function showRandomElement() {
+    const elementNumbers = Object.keys(elements);
+    const randomNumber = elementNumbers[Math.floor(Math.random() * elementNumbers.length)];
+    const randomElement = elements[randomNumber];
+    
+    // Find and highlight the element
+    const elementDiv = allElementDivs.find(({ element }) => element.number === randomElement.number)?.div;
+    if (elementDiv) {
+        elementDiv.style.animation = 'pulse 1s ease-in-out';
+        setTimeout(() => {
+            elementDiv.style.animation = '';
+            elementDiv.click();
+        }, 1000);
+    }
+}
