@@ -115,16 +115,62 @@ h1 {
     display: inline-block;
 }
 
+/* Category colors for legend dots */
+.dot.alkali-metal { background: rgba(239, 68, 68, 0.6); border: 1px solid rgba(239, 68, 68, 1); }
+.dot.alkaline-earth-metal { background: rgba(245, 158, 11, 0.6); border: 1px solid rgba(245, 158, 11, 1); }
+.dot.transition-metal { background: rgba(14, 165, 233, 0.6); border: 1px solid rgba(14, 165, 233, 1); }
+.dot.post-transition-metal { background: rgba(168, 85, 247, 0.6); border: 1px solid rgba(168, 85, 247, 1); }
+.dot.metalloid { background: rgba(20, 184, 166, 0.6); border: 1px solid rgba(20, 184, 166, 1); }
+.dot.nonmetal { background: rgba(132, 204, 22, 0.6); border: 1px solid rgba(132, 204, 22, 1); }
+.dot.halogen { background: rgba(236, 72, 153, 0.6); border: 1px solid rgba(236, 72, 153, 1); }
+.dot.noble-gas { background: rgba(99, 102, 241, 0.6); border: 1px solid rgba(99, 102, 241, 1); }
+.dot.lanthanide { background: rgba(251, 191, 36, 0.6); border: 1px solid rgba(251, 191, 36, 1); }
+.dot.actinide { background: rgba(244, 114, 182, 0.6); border: 1px solid rgba(244, 114, 182, 1); }
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #38bdf8 rgba(30, 41, 59, 0.2);
+}
+
+.table-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: rgba(30, 41, 59, 0.2);
+    border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #38bdf8;
+    border-radius: 10px;
+}
+
+.scroll-hint {
+    display: none;
+    text-align: center;
+    font-size: 11px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-style: italic;
+}
+
 .periodic-table {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
-    grid-template-rows: repeat(10, 1fr); /* Added extra row for separation */
+    grid-template-rows: repeat(10, 1fr);
     gap: 2px;
     background: rgba(30, 41, 59, 0.2);
     padding: 12px;
     border: 1px solid rgba(148, 163, 184, 0.1);
     border-radius: 16px;
-    width: 100%;
+    width: max-content;
+    min-width: 100%;
     max-width: 1500px;
     margin: 0 auto;
 }
@@ -160,47 +206,17 @@ h1 {
     justify-content: center;
 }
 
-/* Refined Element category colors */
-.element.alkali-metal { 
-    background: rgba(239, 68, 68, 0.1);
-    border-color: rgba(239, 68, 68, 0.4);
-}
-.element.alkaline-earth-metal { 
-    background: rgba(245, 158, 11, 0.1);
-    border-color: rgba(245, 158, 11, 0.4);
-}
-.element.transition-metal { 
-    background: rgba(14, 165, 233, 0.1);
-    border-color: rgba(14, 165, 233, 0.4);
-}
-.element.post-transition-metal { 
-    background: rgba(168, 85, 247, 0.1);
-    border-color: rgba(168, 85, 247, 0.4);
-}
-.element.metalloid { 
-    background: rgba(20, 184, 166, 0.1);
-    border-color: rgba(20, 184, 166, 0.4);
-}
-.element.nonmetal { 
-    background: rgba(132, 204, 22, 0.1);
-    border-color: rgba(132, 204, 22, 0.4);
-}
-.element.halogen { 
-    background: rgba(236, 72, 153, 0.1);
-    border-color: rgba(236, 72, 153, 0.4);
-}
-.element.noble-gas { 
-    background: rgba(99, 102, 241, 0.1);
-    border-color: rgba(99, 102, 241, 0.4);
-}
-.element.lanthanide { 
-    background: rgba(251, 191, 36, 0.1);
-    border-color: rgba(251, 191, 36, 0.4);
-}
-.element.actinide { 
-    background: rgba(244, 114, 182, 0.1);
-    border-color: rgba(244, 114, 182, 0.4);
-}
+/* Category colors for elements */
+.element.alkali-metal { background: rgba(239, 68, 68, 0.1); border-color: rgba(239, 68, 68, 0.4); }
+.element.alkaline-earth-metal { background: rgba(245, 158, 11, 0.1); border-color: rgba(245, 158, 11, 0.4); }
+.element.transition-metal { background: rgba(14, 165, 233, 0.1); border-color: rgba(14, 165, 233, 0.4); }
+.element.post-transition-metal { background: rgba(168, 85, 247, 0.1); border-color: rgba(168, 85, 247, 0.4); }
+.element.metalloid { background: rgba(20, 184, 166, 0.1); border-color: rgba(20, 184, 166, 0.4); }
+.element.nonmetal { background: rgba(132, 204, 22, 0.1); border-color: rgba(132, 204, 22, 0.4); }
+.element.halogen { background: rgba(236, 72, 153, 0.1); border-color: rgba(236, 72, 153, 0.4); }
+.element.noble-gas { background: rgba(99, 102, 241, 0.1); border-color: rgba(99, 102, 241, 0.4); }
+.element.lanthanide { background: rgba(251, 191, 36, 0.1); border-color: rgba(251, 191, 36, 0.4); }
+.element.actinide { background: rgba(244, 114, 182, 0.1); border-color: rgba(244, 114, 182, 0.4); }
 
 .element:hover:not(.empty):not(.label) {
     transform: scale(1.1);
@@ -208,18 +224,6 @@ h1 {
     background: rgba(51, 65, 85, 0.8);
     z-index: 50;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
-@keyframes clickEffect {
-    0% { transform: scale(1); }
-    50% { transform: scale(0.95); }
-    100% { transform: scale(1); }
-}
-
-@keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.4); }
-    70% { box-shadow: 0 0 0 10px rgba(56, 189, 248, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
 }
 
 .element .number {
@@ -250,9 +254,10 @@ h1 {
 }
 
 .element .mass {
-    display: none; /* Hide mass in grid for cleaner look, show in modal */
+    display: none;
 }
 
+/* Modal Styles */
 .modal {
     display: none;
     position: fixed;
@@ -280,14 +285,8 @@ h1 {
 }
 
 @keyframes modalSlide {
-    from { 
-        transform: translateY(20px) scale(0.95);
-        opacity: 0;
-    }
-    to { 
-        transform: translateY(0) scale(1);
-        opacity: 1;
-    }
+    from { transform: translateY(20px) scale(0.95); opacity: 0; }
+    to { transform: translateY(0) scale(1); opacity: 1; }
 }
 
 .close {
@@ -358,105 +357,11 @@ h1 {
     font-weight: 500;
 }
 
-
-
-.dot.alkali-metal { background: rgba(239, 68, 68, 0.6); border: 1px solid rgba(239, 68, 68, 1); }
-.dot.alkaline-earth-metal { background: rgba(245, 158, 11, 0.6); border: 1px solid rgba(245, 158, 11, 1); }
-.dot.transition-metal { background: rgba(14, 165, 233, 0.6); border: 1px solid rgba(14, 165, 233, 1); }
-.dot.post-transition-metal { background: rgba(168, 85, 247, 0.6); border: 1px solid rgba(168, 85, 247, 1); }
-.dot.metalloid { background: rgba(20, 184, 166, 0.6); border: 1px solid rgba(20, 184, 166, 1); }
-.dot.nonmetal { background: rgba(132, 204, 22, 0.6); border: 1px solid rgba(132, 204, 22, 1); }
-.dot.halogen { background: rgba(236, 72, 153, 0.6); border: 1px solid rgba(236, 72, 153, 1); }
-.dot.noble-gas { background: rgba(99, 102, 241, 0.6); border: 1px solid rgba(99, 102, 241, 1); }
-.dot.lanthanide { background: rgba(251, 191, 36, 0.6); border: 1px solid rgba(251, 191, 36, 1); }
-.dot.actinide { background: rgba(244, 114, 182, 0.6); border: 1px solid rgba(244, 114, 182, 1); }
-
-@media (max-width: 1200px) {
-    body {
-        padding: 20px 10px;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-        margin-bottom: 30px;
-    }
-
-    .periodic-table {
-        padding: 16px;
-        gap: 2px;
-        border-radius: 16px;
-    }
-    
-    .element {
-        min-height: 60px;
-        padding: 4px;
-        border-radius: 6px;
-    }
-
-    .element .number {
-        top: 4px;
-        left: 6px;
-        font-size: 8px;
-    }
-
-    .element .symbol {
-        font-size: 16px;
-    }
-    
-    .element .name {
-        font-size: 7px;
-    }
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-    
-    .controls {
-        flex-direction: column;
-        align-items: stretch;
-        max-width: 400px;
-        margin: 0 auto 30px auto;
-    }
-
-    .search-input {
-        width: 100%;
-    }
-    
-    .legend {
-        gap: 12px;
-        padding: 12px;
-    }
-
-    .legend-item {
-        font-size: 11px;
-    }
-
-    .periodic-table {
-        padding: 8px;
-        gap: 2px;
-        overflow-x: auto;
-        min-width: 1000px; /* Force scroll on mobile for the grid */
-    }
-
-    .element {
-        min-height: 55px;
-    }
-    
-    .modal-content {
-        margin: 20% auto;
-        padding: 24px;
-    }
-
-    .element-detail h2 {
-        font-size: 1.75rem;
-        margin-bottom: 24px;
-    }
-
-    .detail-grid {
-        grid-template-columns: 1fr;
-    }
+/* Animations */
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(56, 189, 248, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
 }
 
 /* Developer Credit Footer */
@@ -486,10 +391,131 @@ h1 {
     text-decoration: underline;
 }
 
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .periodic-table {
+        padding: 10px;
+    }
+}
+
 @media (max-width: 768px) {
-    .developer-credit {
-        margin-top: 30px;
-        padding: 15px;
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .controls {
+        flex-direction: column;
+        align-items: stretch;
+        max-width: 400px;
+        margin: 0 auto 20px auto;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .legend {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        padding: 12px;
+        justify-items: start;
+    }
+
+    .legend-item {
+        font-size: 10px;
+        width: 100%;
+        padding: 4px;
+        background: rgba(30, 41, 59, 0.3);
+        border-radius: 6px;
+    }
+
+    .periodic-table {
+        padding: 8px;
+        gap: 1px;
+        min-width: 800px; /* Ensure enough room for 18 columns on mobile before scroll */
+    }
+
+    .scroll-hint {
+        display: block;
+    }
+
+    .element {
+        min-height: 55px;
+        padding: 6px 2px;
+    }
+
+    .element .symbol {
+        font-size: 16px;
+    }
+
+    .element .number {
+        font-size: 8px;
+        top: 2px;
+        left: 4px;
+    }
+
+    .element .name {
+        font-size: 6px;
+    }
+
+    .modal-content {
+        margin: 5% auto;
+        padding: 20px;
+        width: 95%;
+        border-radius: 16px;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .close {
+        right: 16px;
+        top: 16px;
+        width: 44px; /* Larger hit area for mobile */
+        height: 44px;
+        font-size: 28px;
+        background: rgba(30, 41, 59, 0.5);
+    }
+
+    .element-detail h2 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .detail-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .detail-item {
+        padding: 12px;
+    }
+
+    .detail-item span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .legend {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+
+    .legend-item {
+        font-size: 9px;
     }
 
     .developer-credit p {
