@@ -6,3 +6,6 @@ A simple web-based Periodic Table project that displays chemical elements in a s
 - Displays all elements
 - Clean and user-friendly interface
 - Basic details of elements
+
+## Screenshot
+![App Screenshot](screenshot.png)
